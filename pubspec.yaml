@@ -1,0 +1,43 @@
+name: dagiplayer
+description: "A premium local-first music and video player with an editorial design."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.8.1
+  just_audio: ^0.9.46
+  audio_service: ^0.18.18
+  audio_session: ^0.1.25
+  video_player: ^2.9.2
+  permission_handler: ^11.4.0
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  cached_network_image: ^3.4.1
+  flutter_animate: ^4.5.2
+  shared_preferences: ^2.5.3
+  sqflite: ^2.4.2
+  sqflite_common_ffi: ^2.3.4+4
+  intl: ^0.20.2
+  collection: ^1.19.1
+  google_fonts: ^6.3.2
+  wakelock_plus: ^1.4.0
+  video_thumbnail: ^0.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
+    - assets/subtitles/
